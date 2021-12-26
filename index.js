@@ -1,29 +1,31 @@
-//document.getElementById("count-el").innerText = 9;
+let passengerNumber = document.getElementById("passenger_count")
+let saveEl = document.getElementById("save_el")
+
+let count = 0
 
 
+function counter() {
+   count += 1
 
-
-
-// initialize the count 
-// listen for the clicks on the increment button
-// increment the count variable when the button is clicked 
-// change the counter in the HTML to reflect the new count 
-
-
-
-let count = 0;
-function increase (){
-   count = count + 1
-   console.log(document.getElementById("count-el").innerText = count);
+    passengerNumber.innerText = count
 
 }
 
 
+//textcontent takes into account returns every element. In contrast, innerText is aware of styling and won't return the text of "hidden" elements.
 
-//create a save button that logs out the count when its called
-function save(){
-   console.log(count)
-    
+function save() {
+
+   let savedCount = count + " - "
+   saveEl.textContent += savedCount
+   passengerNumber.textContent = 0
+   count = 0
+   
+
+  
+  
+
+
 }
 
 

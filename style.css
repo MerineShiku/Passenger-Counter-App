@@ -22,14 +22,15 @@ body {
   background-image: url(train.png);
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 h1 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-h2 {
+
+#passenger_count {
   font-size: 50px;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -46,11 +47,11 @@ button {
   border-radius: 5px;
 }
 
-#increment-btn {
+#counter_btn {
   background: darkred;
   font-size: 30px;
 }
-#save-btn {
-  background: darkgreen;
+#save_btn {
+  background: green;
   font-size: 30px;
 }
