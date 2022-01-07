@@ -21,11 +21,7 @@ function save() {
    passengerNumber.textContent = 0
    count = 0
    
-
-  
-  
-
-
 }
+
 
 
